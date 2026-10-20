@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hritul2/govecx"
+	"github.com/Hritul2/govecx"
 )
 
 func main() {

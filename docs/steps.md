@@ -36,7 +36,7 @@ Commands (see `Makefile`): `make test`, `make bench`, `make vet`, `make example`
 
 ## Step 0 — Repo hygiene (15 min)
 
-- [x] `git init`, first commit, create GitHub repo `hritul2/govecx` (must match the `module` line in `go.mod`)
+- [x] `git init`, first commit, create GitHub repo `Hritul2/govecx` (must match the `module` line in `go.mod`)
 - [x] Pick a license (MIT or Apache-2.0) → add `LICENSE`, update README
 - [x] Consider lowering `go 1.26.7` in `go.mod` to something like `go 1.23` — the `go` line is the *minimum* version users need, and a library should not force the newest toolchain
 - [x] Optional: install `staticcheck` (`go install honnef.co/go/tools/cmd/staticcheck@latest`)
@@ -177,8 +177,8 @@ Files: `benchmark_test.go`, `cmd/govecx-bench/main.go`
 - [ ] Godoc on everything exported; `Example()` passes
 - [ ] `go vet`, `staticcheck`, `go test -race` clean
 - [ ] `git tag v0.1.0 && git push --tags`
-- [ ] Trigger pkg.go.dev: `GOPROXY=proxy.golang.org go list -m github.com/hritul2/govecx@v0.1.0`
-- [ ] Try it from a fresh folder: `go mod init demo && go get github.com/hritul2/govecx@v0.1.0`
+- [ ] Trigger pkg.go.dev: `GOPROXY=proxy.golang.org go list -m github.com/Hritul2/govecx@v0.1.0`
+- [ ] Try it from a fresh folder: `go mod init demo && go get github.com/Hritul2/govecx@v0.1.0`
 
 Semver reminder: while on `v0.x` you may break the API. At `v1` you can't (without a `/v2` module path).
 

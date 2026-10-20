@@ -1,3 +1,3 @@
-module github.com/hritul2/govecx
+module github.com/Hritul2/govecx
 
 go 1.23

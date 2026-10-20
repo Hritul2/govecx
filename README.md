@@ -9,7 +9,7 @@ Pure Go. Zero external services. Not a vector database — just the index.
 ## Install
 
 ```sh
-go get github.com/hritul2/govecx
+go get github.com/Hritul2/govecx
 ```
 
 ## Usage
