@@ -1,0 +1,20 @@
+# binaries / build
+/bin/
+*.exe
+*.test
+
+# profiling & coverage
+*.out
+*.prof
+*.pprof
+
+# saved indexes & downloaded datasets
+*.idx
+testdata/*.fvecs
+testdata/*.ivecs
+testdata/*.hdf5
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
